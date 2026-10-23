@@ -1,0 +1,6 @@
+{
+  "name": "Aadhi Hindi Coaching Center",
+  "description": "Personalized Hindi coaching for school students, professionals, and exam aspirants across all 8 examination levels.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
