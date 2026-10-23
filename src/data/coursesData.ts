@@ -1,3 +1,5 @@
+import trainerPhoto from '../assets/images/trainer_r_kiruthika_1792758616109.jpg';
+import classroomPhoto from '../assets/images/hero_hindi_learning_1792758615536.jpg';
 export interface CourseLevel {
   id: string;
   levelNumber: number;
@@ -8,11 +10,10 @@ export interface CourseLevel {
   skills: string;
 }
 
-// Easily replaceable brand assets - swap paths whenever you update logo or photo
 export const BRAND_ASSETS = {
   logo: '/assets/aistudio/image_38a97133.png',
-  trainerPhoto: '/src/assets/images/trainer_r_kiruthika_1792758616109.jpg',
-  classroomPhoto: '/src/assets/images/hero_hindi_learning_1792758615536.jpg',
+  trainerPhoto,
+  classroomPhoto,
 };
 
 export const ACADEMY_INFO = {
